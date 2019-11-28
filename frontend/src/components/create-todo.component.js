@@ -23,26 +23,6 @@ export default class CreateTodo extends Component {
     })
   }
 
-  // onChangeTodoDescription(e) {
-  //   this.setState({
-  //     todo_description: e.target.value
-  //   });
-  // }
-
-  // onChangeTodoResponsible(e) {
-  //   this.setState({
-  //     todo_responsible: e.target.value
-  //   });
-  // }
-
-  // onChangeTodoPriority(e) {
-  //   console.log(e.target.value);
-  //   this.setState({
-  //     todo_priority: e.target.value
-  //   });
-  //   console.log(this.state.todo_proirity);
-  // }
-
   onSubmit(e) {
     e.preventDefault();
 
