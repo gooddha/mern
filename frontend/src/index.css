@@ -13,5 +13,6 @@ code {
 }
 
 .completed {
-  text-decoration: line-trough;
+  text-decoration: line-through;
+  color: #999;
 }
